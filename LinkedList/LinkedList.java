@@ -30,7 +30,7 @@ third.next=head;
 head=third;
 third.prev = head;
 
-    //Searching a LinkedList for a key
+    //Printing elements of a Linked List
     Node temp = head;
     while(temp!=null){
       System.out.println(temp.data);
