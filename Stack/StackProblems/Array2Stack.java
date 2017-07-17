@@ -53,7 +53,7 @@ public static void main(String args[]){
       case 3:     int peek_option=stackNumber();
                     if(peek_option==1){
                       if(isStack1Empty(top1)){
-                        System.out.println("Stack is empty");
+                        System.out.println("Stack1 is empty");
                       }
                       else
                     System.out.println(a[top1]);
@@ -61,7 +61,7 @@ public static void main(String args[]){
                   }
                     else if(peek_option==2){
                       if(isStack2Empty(top2)){
-                          System.out.println("Stack is empty");
+                          System.out.println("Stack2 is empty");
                       }
                       else
                     System.out.println(a[top2]);
